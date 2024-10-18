@@ -16,6 +16,8 @@ let shoes = 89.78;
 
 
 // 1. If divided evenly, how much would each sibling get for the week?
+weeklyAllowance / 3;
+console.log(weeklyAllowance);
 
 // 2. How many games can Jordan buy with their cut?
 
@@ -72,7 +74,7 @@ const addNums = (x, y) => {
 
 /// b. Prints a special message if name is "Beyonce"
 const isBeyonce = (name) => {
-    if( ) { 
+    if(x) { 
         return "Welcome Queen!";
     } else {
         return `Sorry {name}, you're not Beyonce`;
