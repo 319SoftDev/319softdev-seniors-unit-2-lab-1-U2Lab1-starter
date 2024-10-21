@@ -40,9 +40,8 @@ let newshoe= 44.895
 newshoe = sum/newshoe;
 console.log(`4. Quinn and Ricardo can only buy ${Math.floor(newshoe)} shoe :(.`);
 
-
-
 // 5. How many more games can they buy if they put their money together compared to if they had bought games on their own?
+
 
 // 6. Print out the three siblings' names. "The three siblings are __, __, and ___."
 
