@@ -16,14 +16,31 @@ let shoes = 89.78;
 
 
 // 1. If divided evenly, how much would each sibling get for the week?
-weeklyAllowance / 3;
-console.log(weeklyAllowance);
+console.log (`1. ${weeklyAllowance/3}`);
 
 // 2. How many games can Jordan buy with their cut?
+const JordanGames = "2 games";
+console.log( `2.Jordan can only buy: ${Math.floor(JordanGames)}`);
+
 
 // 3. The cost of games just went up by a dollar and shoes are on sale at 50% (half) off. Change the variables to their new prices.
+game = 15.99;
+game = game + 1;
+shoes = 89.78;
+shoes = shoes/2;
+console.log(`3a.The new game price is:$${game}.`) ;
+console.log(`3b.Shoes are 50% off! The new price is: $${Math.floor(shoes)}.`);
 
 // 4. Quinn and Ricardo are twins. If they put their money together, how many on sale shoes can they buy in a month (4 weeks)?
+let Quinn = 43;
+let Ricardo = 43;
+let sum = Quinn + Ricardo;
+let month= sum*4
+let newshoe= 44.895
+newshoe = sum/newshoe;
+console.log(`4. Quinn and Ricardo can only buy ${Math.floor(newshoe)} shoe :(.`);
+
+
 
 // 5. How many more games can they buy if they put their money together compared to if they had bought games on their own?
 
@@ -73,26 +90,26 @@ const addNums = (x, y) => {
 
 
 /// b. Prints a special message if name is "Beyonce"
-const isBeyonce = (name) => {
-    if(x) { 
-        return "Welcome Queen!";
-    } else {
-        return `Sorry {name}, you're not Beyonce`;
-    }
-}
+//const isBeyonce = (name) => {
+  //  if( ) { 
+  //      return "Welcome Queen!";
+  //  } else {
+  //      return `Sorry {name}, you're not Beyonce`;
+    //}
+//}
 // Test "Beyonce" and other names to ensure it works
 
 
 
 /// c. If the number is even, return the number divided by 2, otherwise, return the number
 /// For example reduceEvens(10) => 5 -- reduceEvens(11) => 11
-const reduceEvens = (x) => {
-    if( ){
+//const reduceEvens = (x) => {
+  //  if( ){
 
-    } else {
-        return x;
-    }
-}
+  //  } else {
+   //     return x;
+  //  }
+//}
 //Write your own function calls
 
 
